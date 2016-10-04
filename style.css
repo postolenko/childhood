@@ -257,7 +257,7 @@ ul li {
     padding: 6px 0;
 }
 
-ul li:before {
+/*ul li:before {
     display: inline-block;
     vertical-align: top;
     padding: 0 5px 0 0;
@@ -267,7 +267,7 @@ ul li:before {
     line-height: 18px;
     font-weight: 400;
     color: #444444;
-}
+}*/
 
 
 li {
@@ -1002,7 +1002,7 @@ h1.site-h {
 .content-left-col,
 .content-right-col {
     display: block;
-    width: 22%;
+    width: 21%;
 }
 
 .slider-new-goods-box {
@@ -1011,7 +1011,7 @@ h1.site-h {
 
 .header-sidebar-section {
     display: table;
-    width: 80%;
+    width: 75%;
     background: rgba(204, 51, 102, 1);
     /*margin: 0 auto 10px auto;*/
     margin: 0 auto;
@@ -1028,7 +1028,7 @@ h1.site-h {
     height: 0;
     position: absolute;
     bottom: -8px;
-    left: 0;
+    left: 1px;
     border-top: 9px solid #b32d59; 
     border-left: 9px solid transparent;
 }
@@ -1040,7 +1040,7 @@ h1.site-h {
     height: 0;
     position: absolute;
     bottom: -8px;
-    right: 0;
+    right: 1px;
     border-top: 9px solid #e63973;
     border-right: 9px solid transparent;  
 }
@@ -1054,7 +1054,7 @@ h1.site-h {
     line-height: 24px;
     font-weight: 500;
     color: #ffffff;
-    padding: 0 2px;
+    padding: 0 5px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -1102,7 +1102,7 @@ h1.site-h {
     font-size: 18px;
     line-height: 24px;
     color: #ffffff;
-    padding: 0 4px;
+    padding: 0 2px;
 }
 
 .header-sidebar-section .col-left .fa:nth-child(1) {
@@ -1153,7 +1153,7 @@ h1.site-h {
     font-size: 18px;
     line-height: 24px;
     color: #ffffff;
-    padding: 0 4px;
+    padding: 0 2px;
 }
 
 .header-sidebar-section .col-right .fa:nth-child(1) {
@@ -1229,7 +1229,7 @@ h1.site-h {
     display: block;
     width: 100%;
     text-align: center;
-    padding: 5px;
+    padding: 7px 5px 2px 5px;
 }
 
 .slide-link-box a {
@@ -1258,8 +1258,8 @@ h1.site-h {
 
 .main-content {
     display: block;
-    width: 56%;
-    padding: 0 1%;
+    width: 58%;
+    /*padding: 0 1%;*/
     /*margin: 0 auto;*/
     float: left;
 }
@@ -1827,7 +1827,7 @@ h1.site-h {
     .product-box .left-col {
         display: inline-block;
         vertical-align: top;
-        width: 76%;
+        width: 78%;
     }
 
     .product-box .left-col .img-box {
@@ -1843,13 +1843,71 @@ h1.site-h {
         height: auto;
     }
 
+    .slider-big-photo {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        border: 1px solid #eeeeee !important;
+    }
+
+    .slider-big-photo div {
+        display: block;
+        width: 100%;
+        height: 360px;
+        overflow: hidden;
+    }
+
+    .slider-big-photo div img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
     .product-box .right-col {
         display: inline-block;
         vertical-align: top;
-        width: 24%;
+        width: 22%;
     }
 
-    .product-box .right-col p {
+    .slider-nav-big-photo {
+        margin: -15px 0 0 0;
+    }
+
+    .slider-nav-big-photo button {
+        display: block;
+        background: none;
+        cursor: pointer;
+        border: 1px solid transparent;
+        width: 30px;
+        height: 20px;
+        margin: 0 auto;
+    }
+
+    .slider-nav-big-photo .slick-list {
+        display: block;
+        width: 112px;
+        margin: 10px auto;
+    }
+
+    .slider-nav-big-photo .slick-slide {
+        display: block;
+        width: 100%;
+        max-height: 100px !important;
+        border: 1px solid #eeeeee !important;       
+        margin: 5px 0;
+        opacity: .5;
+        overflow: hidden;
+    }
+
+    .slider-nav-big-photo .slick-slide.slick-current {
+        opacity: 1;
+    }
+
+    .product-content {
+        padding: 40px 0;
+    }
+
+    .product-content p {
         font-family: "Roboto", Arial, Verdana, sans-serif;
         font-size: 15px;
         line-height: 18px;
@@ -1858,7 +1916,7 @@ h1.site-h {
         padding: 7px 0;
     }
 
-    .product-box .right-col h3 {
+    .product-content h3 {
         font-family: "Roboto", Arial, Verdana, sans-serif;
         font-size: 15px;
         line-height: 18px;
@@ -1867,11 +1925,7 @@ h1.site-h {
         padding: 10px 0 0 0;
     }
 
-    .product-box .right-col ul {
-
-    }
-
-    .product-box .right-col ul li {
+    .product-content ul li {
         font-family: "Roboto", Arial, Verdana, sans-serif;
         font-size: 15px;
         line-height: 18px;
@@ -1880,7 +1934,7 @@ h1.site-h {
         padding: 6px 0;
     }
 
-    .product-box .right-col ul li:before {
+    .product-content ul li:before {
         display: inline-block;
         vertical-align: top;
         padding: 0 5px 0 0;
@@ -1891,7 +1945,6 @@ h1.site-h {
         font-weight: 400;
         color: #444444;
     }
-
 
 /* ----- /Product Page ------ */
 
