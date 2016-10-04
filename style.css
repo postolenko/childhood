@@ -865,7 +865,6 @@ h1.site-h {
     transform: scale(1.03);
 }
 
-
 .thumbnail .img-box {
     display: block;
     width: 100%;
@@ -878,6 +877,34 @@ h1.site-h {
     display: block;
     width: 100%;
     background: rgba(255, 255, 255, 1);
+
+    -webkit-transition-property: transform;
+    -webkit-transition-duration: .6s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform;
+    -moz-transition-duration: .6s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform;
+    -ms-transition-duration: .6s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform;
+    -o-transition-duration: .6s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+}
+
+.thumbnail:hover .img-box img {
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .thumbnail h2 {
