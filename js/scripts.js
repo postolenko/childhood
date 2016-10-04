@@ -31,6 +31,25 @@ $(document).ready(function() {
 
     });
 
+    // ---------------------------------------------------------
+
+    $(function() {
+
+
+        $(".catalog-link").click(function() {
+
+            $(".catalog-modal-nav").fadeIn(300);
+
+        });
+
+        $(".close-modal-nav").click(function() {
+
+            $(this).parent(".modal-nav").fadeOut(300);
+
+        });
+
+    });
+
 
     // ---------------------------------------------------------
 
