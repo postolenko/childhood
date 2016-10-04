@@ -32,4 +32,34 @@ $(document).ready(function() {
     });
 
 
+    // ---------------------------------------------------------
+
+    $(function() {
+
+        var indexImage;
+        var imgSrcAttr;
+
+        $(".sidebar-right img").click(function() {
+
+            $(".preview-box").fadeIn(300);
+
+            indexImage = $(".sidebar-right img").index(this);
+
+            imgSrcAttr = $(".sidebar-right img:eq("+ indexImage +")").attr("src");
+
+            $(".preview-box img").attr("src", imgSrcAttr);
+
+        });
+
+        $(".preview-box .close-btn, .preview-box .preview-bg").click(function() {
+
+            $(".preview-box").fadeOut(300);
+
+        });
+
+    });
+
+
+
+
 });

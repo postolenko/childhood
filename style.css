@@ -227,7 +227,12 @@ h2 {
 }
 
 h3 {
-
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #222222;
+    padding: 10px 0 0 0;
 }
 
 p {
@@ -238,6 +243,32 @@ p {
     color: #444444;
     padding: 13px 0;
 }
+
+ul {
+
+}
+
+ul li {
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #444444;
+    padding: 6px 0;
+}
+
+ul li:before {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px 0 0;
+    content: "\2014";
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #444444;
+}
+
 
 li {
     list-style: none;
@@ -978,10 +1009,11 @@ h1.site-h {
 
 }
 
-.header-slider-box {
+.header-sidebar-section {
     display: table;
     width: 80%;
     background: rgba(204, 51, 102, 1);
+    /*margin: 0 auto 10px auto;*/
     margin: 0 auto;
     padding: 10px 0;
     position: relative;
@@ -989,7 +1021,7 @@ h1.site-h {
 }
 
 
-.header-slider-box:before {
+.header-sidebar-section:before {
     display: block;
     content: "";
     width: 0;
@@ -1001,7 +1033,7 @@ h1.site-h {
     border-left: 9px solid transparent;
 }
 
-.header-slider-box:after {
+.header-sidebar-section:after {
     display: block;
     content: "";
     width: 0;
@@ -1013,7 +1045,7 @@ h1.site-h {
     border-right: 9px solid transparent;  
 }
 
-.header-slider-box h2 {
+.header-sidebar-section h2 {
     display: table-cell;
     vertical-align: middle;
     width: 44%;
@@ -1029,18 +1061,18 @@ h1.site-h {
 
 
 
-.header-slider-box .stars {
+.header-sidebar-section .stars {
     display: table-cell;
     vertical-align: middle;
     width: 23%;
 }
 
-.header-slider-box .col-left {
+.header-sidebar-section .col-left {
     text-align: right;
     
 }
 
-.header-slider-box .col-left:before {
+.header-sidebar-section .col-left:before {
     display: block;
     content: "";
     width: 0;
@@ -1052,7 +1084,7 @@ h1.site-h {
     border-top: 23px solid rgba(204, 51, 102, 1);
 }
 
-.header-slider-box .col-left:after {
+.header-sidebar-section .col-left:after {
     display: block;
     content: "";
     width: 0;
@@ -1064,7 +1096,7 @@ h1.site-h {
     border-bottom: 23px solid rgba(204, 51, 102, 1);
 }
 
-.header-slider-box .col-left .fa {
+.header-sidebar-section .col-left .fa {
     display: inline-block;
     vertical-align: middle;
     font-size: 18px;
@@ -1073,25 +1105,25 @@ h1.site-h {
     padding: 0 4px;
 }
 
-.header-slider-box .col-left .fa:nth-child(1) {
+.header-sidebar-section .col-left .fa:nth-child(1) {
     font-size: 8px;
     margin: -2px 0 0 0;
 }
 
-.header-slider-box .col-left .fa:nth-child(2) {
+.header-sidebar-section .col-left .fa:nth-child(2) {
     font-size: 10px;
     margin: -3px 0 0 0;
 }
 
-.header-slider-box .col-left .fa:nth-child(3) {
+.header-sidebar-section .col-left .fa:nth-child(3) {
     font-size: 12px;
 }
 
-.header-slider-box .col-right {
+.header-sidebar-section .col-right {
     text-align: left;
 }
 
-.header-slider-box .col-right:before {
+.header-sidebar-section .col-right:before {
     display: block;
     content: "";
     width: 0;
@@ -1103,7 +1135,7 @@ h1.site-h {
     border-top: 23px solid rgba(204, 51, 102, 1);
 }
 
-.header-slider-box .col-right:after {
+.header-sidebar-section .col-right:after {
     display: block;
     content: "";
     width: 0;
@@ -1115,7 +1147,7 @@ h1.site-h {
     border-bottom: 23px solid rgba(204, 51, 102, 1);
 }
 
-.header-slider-box .col-right .fa {
+.header-sidebar-section .col-right .fa {
     display: inline-block;
     vertical-align: middle;
     font-size: 18px;
@@ -1124,34 +1156,33 @@ h1.site-h {
     padding: 0 4px;
 }
 
-.header-slider-box .col-right .fa:nth-child(1) {
+.header-sidebar-section .col-right .fa:nth-child(1) {
     font-size: 12px;
 }
 
-.header-slider-box .col-right .fa:nth-child(2) {
+.header-sidebar-section .col-right .fa:nth-child(2) {
     font-size: 10px;
     margin: -3px 0 0 0;
 }
 
-.header-slider-box .col-right .fa:nth-child(3) {
+.header-sidebar-section .col-right .fa:nth-child(3) {
     font-size: 8px;
     margin: -2px 0 0 0;
 }
 
-.header-slider-box h2 {
-
+.sidebar-left-section section {
+    padding: 40px 0 0 0;
 }
 
-.col-right {
-
-}
 
 .slider-new-goods {
     display: block;
     width: 80%;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 0 0 30px 0;
 }
+
+/*  Пересмотреть этот код  */
 
 .slider-new-goods .slick-list {
     margin: 15px 0;
@@ -1160,6 +1191,8 @@ h1.site-h {
 .slider-new-goods .slick-list .slick-slide {
     padding: 10px 0;
 }
+
+/*  /Пересмотреть этот код  */
 
 .slider-new-goods .slick-arrow {
     display: block;
@@ -1210,6 +1243,19 @@ h1.site-h {
     text-decoration: underline;
 }
 
+.photo-galery-box {
+    display: block;
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.photo-galery-box img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .main-content {
     display: block;
     width: 56%;
@@ -1229,6 +1275,65 @@ h1.site-h {
     margin: 15px auto;
     height: auto;
 }
+
+
+/* ----- Лайт Бокс ------ */
+
+    .preview-box {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 11;
+    }
+
+    .preview-bg {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, .7);
+    }
+
+    .preview-box img {
+        display: block;
+        width: auto;
+        height: auto;
+        max-height: 96%;
+        max-width: 96%;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .preview-box .close-btn {
+        display: inline-block;
+        vertical-align: top;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: none;
+        border: 1px solid transparent;
+        position: fixed;
+        bottom: 7%;
+        right: 3%;
+    }
+
+    .close-btn .fa-search-minus:before {
+        font-size: 30px;
+        line-height: 30px;
+        color: #ffffff;
+        z-index: 2;
+    }
+
+/* ----- /Лайт Бокс ------ */
 
 
 /* ----- Catalog ------ */
@@ -1715,14 +1820,14 @@ h1.site-h {
     }
 
     .product-box {
-        display: table;
+        /*display: table;*/
         padding: 35px 0;
     }
 
     .product-box .left-col {
-        display: table-cell;
+        display: inline-block;
         vertical-align: top;
-        width: 48%;
+        width: 76%;
     }
 
     .product-box .left-col .img-box {
@@ -1739,9 +1844,9 @@ h1.site-h {
     }
 
     .product-box .right-col {
-        display: table-cell;
+        display: inline-block;
         vertical-align: top;
-        width: 52%;
+        width: 24%;
     }
 
     .product-box .right-col p {

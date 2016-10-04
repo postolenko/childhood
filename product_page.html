@@ -243,11 +243,11 @@
 						
 						<aside>
 							
-							<div  class="slider-new-goods-box">
+							<div  class="slider-new-goods-box sidebar-left-section">
 								
 								<header>
 
-									<div class="header-slider-box offset-ziro">
+									<div class="header-sidebar-section offset-ziro">
 										
 										<div class="stars col-left">
 
@@ -277,11 +277,11 @@
 										
 										<div>
 											
-											<div class="img-slide-box">
+											<a class="img-slide-box" href="#">
 												
 												<img src="img/new_goods/photo_1.jpg" alt="">
 
-											</div>
+											</a>
 
 											<div class="slide-link-box">
 
@@ -377,6 +377,46 @@
 
 							</div>
 
+							<div class="sidebar-left-section">
+								
+								<header>
+
+									<div class="header-sidebar-section offset-ziro">
+
+										<div class="stars col-left">
+
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+
+										</div>
+
+										<h2>Фотогалерея</h2>
+
+										<div class="stars col-right">
+
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+
+										</div>
+
+									</div>
+
+								</header>
+
+								<section>
+									
+									<div class="photo-galery-box">
+										
+										<img src="img/photo_galery_img.jpg" alt="Фотогалерея">
+
+									</div>
+
+								</section>
+
+							</div>
+
 						</aside>
 
 					</div>
@@ -402,7 +442,7 @@
 
 							<p class="article">Артикул: 5113</p>
 
-							<div class="product-box">
+							<div class="product-box offset-ziro">
 								
 								<div class="left-col">
 									
@@ -415,6 +455,12 @@
 								</div>
 
 								<div class="right-col">
+									
+									
+
+								</div>
+
+								<div>
 									
 									<p>В комплекте 9 кубиков 90х90 мм с изображением букв и предметов, начинающихся на данную букву. Прекрасная возможность научить ребенка читать, значительно расширить его кругозор. В упаковке 5 наборов. Вес упаковки 2,81 кг, объём-0,034 куб.м. Для детей от 4-х лет и старше.</p>
 
@@ -433,7 +479,7 @@
 									<h3>Советы по безопасности (Кубики «Алфавит»)</h3>
 
 									<p>Не оставляйте кубики «Алфавит» вблизи открытого огня или включенных электроприборов.</p>
-
+									
 								</div>
 
 							</div>
@@ -444,6 +490,16 @@
 					</div>
 
 					<div class="sidebar-right content-right-col right">
+
+						<div class="preview-box">
+
+							<div class="preview-bg"></div>
+
+							<img src="img/photo_1.jpg" alt="">
+
+							<button class="close-btn"><i class="fa fa-search-minus" aria-hidden="true"></i></button>
+
+						</div>
 						
 						<aside>
 								
@@ -588,9 +644,11 @@
 
 		$(".new-goods-slider").slick({
 			  infinite: true,
-			  slidesToShow: 3,
+			  slidesToShow: 2,
 			  slidesToScroll: 1,
-			  vertical: true
+			  vertical: true,
+			  autoplay: true,
+  			  autoplaySpeed: 7000
 			});
 
 		</script>
