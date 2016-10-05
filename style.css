@@ -245,7 +245,7 @@ p {
 }
 
 ul {
-
+    padding: 6px 0;
 }
 
 ul li {
@@ -254,7 +254,7 @@ ul li {
     line-height: 18px;
     font-weight: 400;
     color: #444444;
-    padding: 6px 0;
+    /*padding: 6px 0;*/
 }
 
 /*ul li:before {
@@ -1632,13 +1632,14 @@ h1.site-h {
         font-weight: 500;
         color: #127bcb;
         text-decoration: underline;
+        text-align: left;
     }
 
     .catalog-product:hover h2 {
         text-decoration: none;
     }
 
-    .catalog-item .right-col .article {
+    .catalog-item .article {
         display: inline-block;
         vertical-align: top;
         font-family: "Roboto", Arial, Verdana, sans-serif;
@@ -1647,6 +1648,7 @@ h1.site-h {
         font-weight: 500;
         color: #cc3366;
         padding: 0;
+        text-align: left;
     }
 
 
@@ -1910,6 +1912,7 @@ h1.site-h {
         display: inline-block;
         vertical-align: top;
         width: 22%;
+        text-align: center;
     }
 
     .slider-nav-big-photo {
