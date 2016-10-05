@@ -750,27 +750,29 @@ h1.site-h {
         left: 0;
     }
 
-    .catalog-nav-list {
+    .modal-nav-list {
         display: block;
-        width: 150%;
+        width: 100%;
         height: 100%;
         position: fixed;
         top: 0;
         left: 0;
-        margin: 120px 0 0 -25%;
-        padding: 0 0 140px 0;
-        /*max-height: 100vh;*/
-        overflow-y: scroll;
+        margin: 120px 0 0 0;
+        padding: 0 0 140px 30px;
     }
 
-    .catalog-nav-list li {
+    .modal-nav-list li {
         display: block;
         width: 100%;
-        padding: 19px 0;
+        padding: 19px 1%;
         text-align: center;
     }
 
-    .catalog-nav-list li a {
+    .modal-nav-list li:nth-child(1) {
+        margin: 21px 0 0 0;
+    }
+
+    .modal-nav-list li a {
         display: inline-block;
         vertical-align: top;
         font-family: "Roboto", Arial, Verdana, sans-serif;
@@ -804,21 +806,21 @@ h1.site-h {
         transition-timing-function: ease;
     }
 
-    .catalog-nav-list li a:link,
-    .catalog-nav-list li a:visited {
+    .modal-nav-list li a:link,
+    .modal-nav-list li a:visited {
         color: #91d1ff;
     }
 
-    .catalog-nav-list li a:active,
-    .catalog-nav-list li a.active {
+    .modal-nav-list li a:active,
+    .modal-nav-list li a.active {
         color: #ffffff;
     }
 
-    .catalog-nav-list li a:hover {
+    .modal-nav-list li a:hover {
         color: #ffffff;
     }
 
-    .catalog-nav-list li a:after {
+    .modal-nav-list li a:after {
         display: block;
         content: "";
         width: 0;
@@ -847,17 +849,17 @@ h1.site-h {
         transition-timing-function: ease;
     }
 
-    .catalog-nav-list li a:link:after,
-    .catalog-nav-list li a:visited:after {
+    .modal-nav-list li a:link:after,
+    .modal-nav-list li a:visited:after {
         width: 0;
     }
 
-    .catalog-nav-list li a:active:after,
-    .catalog-nav-list li a.active:after {
+    .modal-nav-list li a:active:after,
+    .modal-nav-list li a.active:after {
         width: 100%;
     }
 
-    .catalog-nav-list li a:hover:after {
+    .modal-nav-list li a:hover:after {
         width: 100%;
     }
 
