@@ -73,12 +73,10 @@
 		display: inline-block;
 		vertical-align: middle;
 		width: 90%;
-		/*outline: 1px solid red;*/
 	}
 
 	.content-left-col,
 	.content-right-col {
-		/*display: block;*/
 		width: 100%;
 		padding: 40px 0;
 	}
@@ -92,7 +90,6 @@
 		vertical-align: top;
 		margin: 15px 1%;
 	}
-
 
 	.float-image {
 		display: block;
@@ -208,8 +205,6 @@
 
 	.slider-new-goods button.slick-arrow {
 		width: 8%;
-/*		height: auto;*/
-		/*outline: 1px solid green;*/
 	}
 
 	.slider-new-goods button.slick-arrow img {
