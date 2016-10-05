@@ -1288,6 +1288,7 @@ h1.site-h {
 .photo-galery-box {
     display: block;
     width: 75%;
+    max-width: 220px;
     height: auto;
     margin: 0 auto;
 }

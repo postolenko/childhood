@@ -140,6 +140,12 @@
 
 @media only screen and (max-width: 600px) {
 
+	h2 {
+		text-align: center;
+		line-height: 36px;
+		padding: 5px 0;
+	}
+
 	.catalog-item {
 	    width: 50%;
 	}
@@ -150,6 +156,18 @@
 
 	.slider-new-goods button.slick-prev img {
 		left: -20px;
+	}
+
+	.sortable-list {
+		text-align: center;
+	}
+
+	.catalog-items .catalog-item {
+		width: 50%;
+	}
+
+	.catalog-page.thumbnails .pagination-list {
+		padding: 35px 0 15px 0;
 	}
 
 	.float-image {
@@ -189,6 +207,12 @@
 
 @media only screen and (max-width: 480px) {
 
+	h2 {
+		font-size: 30px;
+		line-height: 30px;
+		padding: 5px 0;
+	}
+
 	h1.site-h {
 		padding: 10px 2% 10px 2%;
 		font-size: 18px;
@@ -211,11 +235,31 @@
 		width: 38px;
 	}
 
+	.sortable-list li {
+		width: 100%;
+	}
+
+	.catalog-items .catalog-item {
+		display: block;
+		width: 76%;
+		margin: 0 auto;
+	}
+
+	.catalog-page.thumbnails .pagination-list {
+		padding: 20px 0 15px 0;
+	}
+
+	.catalog-page.thumbnails .pagination-list li {
+		padding: 15px 1px;
+	}
+
 }
 
 
 @media only screen and (max-width: 320px) {
 
-
+	.catalog-items .catalog-item {
+		width: 96%;
+	}
 
 }
