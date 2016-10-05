@@ -295,6 +295,12 @@ a:active {
     padding: 13px 0;
 }
 
+.video-box iframe {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+}
+
 
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
@@ -336,6 +342,8 @@ a:active {
  }
 
 .top-header-section {
+    display: block;
+    width: 100%;
     background: rgba(255, 255, 255, 1);
     text-align: center;
     padding: 20px 0 5px 0;
@@ -389,10 +397,17 @@ h1.site-h {
     padding: 15px 0;
 }
 
-.left-menu {
+.left-header-col {
     display: inline-block;
     vertical-align: middle;
     width: 43%;
+    text-align: right;
+}
+
+.left-menu {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
     text-align: right;
 }
 
@@ -607,13 +622,18 @@ h1.site-h {
     vertical-align: middle;
 }
 
+.menu-link-box,
 .catalog-link-box {
     display: inline-block;
     vertical-align: middle;
-    /*text-align: left;*/
     padding: 0 10px;
 }
 
+.menu-link-box {
+    display: none;
+}
+
+.menu-link,
 .catalog-link {
     display: inline-block;
     vertical-align: middle;
@@ -653,18 +673,23 @@ h1.site-h {
     transition-timing-function: ease;
 }
 
+.menu-link:link,
 .catalog-link:link,
+.menu-link:visited,
 .catalog-link:visited {
     color: #222222;
     background: rgba(18, 123, 203, 0);
 }
 
+.menu-link:active,
 .catalog-link:active,
+.menu-link.active,
 .catalog-link.active {
     color: #ffffff;
     background: rgba(18, 123, 203, 1);
 }
 
+.menu-link:hover,
 .catalog-link:hover {
     color: #ffffff;
     background: rgba(18, 123, 203, 1);
@@ -1001,21 +1026,6 @@ h1.site-h {
 /* ----- CONTENT ------ */
 /*-------------------------------------------*/
 
-.float-image {
-    display: block;
-    width: auto;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.float-image img {
-    display: block;
-    width: auto;
-    height: auto;
-}
-
-
 .sidebar-left {
 
 }
@@ -1033,6 +1043,7 @@ h1.site-h {
 .header-sidebar-section {
     display: table;
     width: 75%;
+    max-width: 250px;
     background: rgba(204, 51, 102, 1);
     /*margin: 0 auto 10px auto;*/
     margin: 0 auto;
@@ -1968,6 +1979,22 @@ h1.site-h {
     }
 
 /* ----- /Product Page ------ */
+
+
+.float-image {
+    display: block;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.float-image img {
+    display: block;
+    width: auto;
+    height: auto;
+}
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

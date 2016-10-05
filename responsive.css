@@ -1,17 +1,138 @@
-@media only screen and (max-width: 1280px) {
-
-
-
-}
-
-
 @media only screen and (max-width: 1024px) {
 
+	.row {
+		padding: 0 2%;
+	}
+
+	.content {
+		padding: 48px 0 0px 0;
+	}
+
+	ul.nav-menu.left-menu,
+	ul.nav-menu.right-menu {
+		display: none;
+	}
+
+	.left-header-col {
+		text-align: left;
+	}
+
+	.right-header-col {
+		text-align: right;
+	}
+
+
+	.menu-link-box {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.catalog-thumnails.row {
+		padding: 85px 2%;
+	}
+
+	.catalog-item {
+		width: 33.33%;
+	}
+
+	.main-content {
+		width: 100%;
+		padding: 15px 1%;
+	}
+
+	.slider-new-goods {
+		padding: 0 0 10px 0;
+	}
+
+	.slider-new-goods button.slick-arrow {
+		display: inline-block;
+		vertical-align: middle;
+		width: 5%;
+		position: relative;
+		top: -20px;
+	}
+
+	.slider-new-goods .slick-prev img,
+	.slider-new-goods .slick-next img {
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+	}
+
+	.slider-new-goods .slick-list {
+		display: inline-block;
+		vertical-align: middle;
+		width: 90%;
+	}
+
+	.content-left-col,
+	.content-right-col {
+		/*display: block;*/
+		width: 100%;
+		padding: 40px 0;
+	}
+
+	.content-right-col {
+		text-align: center;
+	}
+
+	.content-right-col img {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 10px;
+	}
+
+
+	.float-image {
+		display: block;
+		width: 250px;
+		position: relative;
+		margin: 40px auto;
+	}
+
+	.footer-section-1 .footer-col {
+		width: 100%;
+		padding: 20px 5%;
+	}
+
+	.footer-section-1 .footer-col.col-1 {
+		text-align: left;
+	}
+
+	.footer-section-1 .footer-col.col-2 {
+		text-align: center;
+		padding: 60px 0 30px 0;
+	}
+
+	.footer-section-1 .footer-col.col-2 .right {
+		width: 100%;
+	}
+
+	.footer-section-2 {
+		padding: 20px 0;
+	}
+
+	.footer-section-2 .footer-col {
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.footer-col.col-1 {
+		text-align: center;
+	}
+
+	.footer-col.col-3 .right {
+		margin: 10px auto;
+		float: none;
+	}
+
 
 }
 
 
-@media only screen and (max-width: 737px) {
+@media only screen and (max-width: 600px) {
 
 
 
@@ -20,6 +141,13 @@
 
 
 @media only screen and (max-width: 480px) {
+
+
+
+}
+
+
+@media only screen and (max-width: 320px) {
 
 
 
