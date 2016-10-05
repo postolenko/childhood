@@ -4,6 +4,10 @@
 		padding: 0 2%;
 	}
 
+	.header {
+		padding: 0 0 80px 0;
+	}
+
 	.top-header-section {
 		padding: 20px 0;
 	}
@@ -36,7 +40,7 @@
 	}
 
 	.catalog-thumnails.row {
-		padding: 85px 2%;
+		padding: 85px 2% 0 2%;
 	}
 
 	.catalog-item {
@@ -295,6 +299,10 @@
 		padding: 10px 2% 10px 2%;
 		font-size: 18px;
 		line-height: 26px;
+	}
+
+	.header {
+		padding: 0 0 65px 0;
 	}
 
 	.thumbnail .img-box {
