@@ -75,10 +75,19 @@
 		width: 90%;
 	}
 
+	.product-content {
+		padding: 40px 0 10px 0;
+	}
+
 	.content-left-col,
 	.content-right-col {
 		width: 100%;
 		padding: 40px 0;
+	}
+
+	.content-right-col {
+		/*width: 100%;*/
+		padding: 10px 0 40px 0;
 	}
 
 	.content-right-col {
