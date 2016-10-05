@@ -48,6 +48,12 @@ $(document).ready(function() {
 
         });
 
+        $(".menu-link").click(function() {
+
+            $(".main-nav-modal").fadeIn(300);
+
+        });
+
     });
 
 
