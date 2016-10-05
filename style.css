@@ -1347,7 +1347,7 @@ h1.site-h {
         height: auto;
         max-height: 96%;
         max-width: 96%;
-        margin: auto;
+        margin: auto !important;
         position: fixed;
         top: 0;
         right: 0;
