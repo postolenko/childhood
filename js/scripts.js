@@ -42,15 +42,15 @@ $(document).ready(function() {
 
         });
 
-        $(".close-modal-nav").click(function() {
-
-            $(this).parent(".modal-nav").fadeOut(300);
-
-        });
-
         $(".menu-link").click(function() {
 
             $(".main-nav-modal").fadeIn(300);
+
+        });
+
+        $(".close-modal-nav").click(function() {
+
+            $(this).parent(".modal-nav").fadeOut(300);
 
         });
 
