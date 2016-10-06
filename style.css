@@ -348,8 +348,8 @@ a:active {
 .preload-img-box {
     display: block;
     display: block;
-    width: 310px;
-    height: 310px;
+    width: 304px;
+    height: 304px;
     margin: auto;
     position: absolute;
     top: 0;
@@ -367,8 +367,8 @@ a:active {
 
 .preload-bg img {
     display: block;
-    width: 281px;
-    height: 281px;
+    width: 280px;
+    height: 280px;
     margin: auto;
     position: absolute;
     top: 0;
