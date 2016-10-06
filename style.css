@@ -392,7 +392,6 @@ a:active {
     padding: 20px 0 5px 0;
 }
 
-
 .header .top-h2 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
     font-size: 10px;
@@ -549,7 +548,6 @@ h1.site-h {
 .nav-menu li a:hover:after {
     width: 100%;
 }
-
 
 .logo-box {
     display: inline-block;
@@ -1139,7 +1137,6 @@ h1.site-h {
     text-align: center;
 }
 
-
 .header-sidebar-section .stars {
     display: table-cell;
     vertical-align: middle;
@@ -1252,7 +1249,6 @@ h1.site-h {
     padding: 40px 0 0 0;
 }
 
-
 .slider-new-goods {
     display: block;
     width: 80%;
@@ -1267,7 +1263,6 @@ h1.site-h {
 .slider-new-goods .slick-list .slick-slide {
     padding: 10px 0;
 }
-
 
 .slider-new-goods .slick-arrow {
     display: block;

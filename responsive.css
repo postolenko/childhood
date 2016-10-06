@@ -99,11 +99,12 @@
 		padding: 40px 0;
 	}
 
-	.content-right-col {
-		padding: 10px 0 40px 0;
+	.sidebar-left-section section {
+		padding: 40px 0;
 	}
 
 	.content-right-col {
+		padding: 10px 0 40px 0;
 		text-align: center;
 	}
 
