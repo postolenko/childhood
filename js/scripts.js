@@ -6,46 +6,74 @@ $(document).ready(function() {
 // ------------------------------------------------------------------------------------------------------
     //  PRELOAD
 
+    $(".catalog-thumnails .thumbnail").addClass("novisible");
+
     $(window).on('load', function () {
 
 
         var countCatalogThumbnailFor = 0;
+        var animationDelay = 0;
         var countCatalogThumbnail;
         var intervalShow;
 
-
-        $(".catalog-thumnails").css({"min-height" : "auto"});
-
-        $(".catalog-item .thumbnail").addClass("novisible");
 
         setTimeout(function() {
 
             $(".preload-bg").fadeOut(500);
 
-            $(".catalog-item .thumbnail").removeClass("novisible");
+            $(".catalog-thumnails .thumbnail").removeClass("novisible");
+
 
             countCatalogThumbnail = $(".catalog-thumnails .thumbnail").length - 1;
 
-            intervalShow = setInterval(function() {
+            for ( countCatalogThumbnailFor = 0; countCatalogThumbnailFor <= countCatalogThumbnail; countCatalogThumbnailFor++ ) {
+               
 
-                $(".catalog-thumnails .thumbnail:eq("+ countCatalogThumbnailFor +")").addClass("show");
+                $(".catalog-thumnails .thumbnail:eq("+ countCatalogThumbnailFor +")").css({
 
-                countCatalogThumbnailFor++
+                                                    "-webkit-animation-delay": .6 + animationDelay + "s",
+                                                    "-moz-animation-delay": .6 + animationDelay + "s",
+                                                    "-o-animation-delay": .6 + animationDelay + "s",
+                                                    "animation-delay": .6 + animationDelay + "s"
 
-                if( countCatalogThumbnailFor > countCatalogThumbnail ) {
+                                                });
 
-                    clearInterval(intervalShow);
+                $(".catalog-thumnails .thumbnail:eq("+ countCatalogThumbnailFor +")").addClass("zoomIn");
 
-                    $(".catalog-thumnails").css({"min-height" : "auto"});
+                animationDelay = animationDelay + .3;
 
-                }
-
-            }, 400);
+            }
 
         }, 1200);
 
 
     });
+
+//     var scaleVal = 1;
+
+// $(".catalog-thumnails .thumbnail")
+//   .on( "mouseenter", function() {
+
+//     // scaleVal = scaleVal + .03;
+
+//     setInterval(function() {
+
+//         scaleVal = scaleVal + .003;
+
+//     }, 35);
+
+//     $(this).css({"transform" : "scale("+ scaleVal +")"});
+
+//   })
+//   .on( "mouseleave", function() {
+
+//     scaleVal = scaleVal - .03;
+
+//     console.log(scaleVal);
+
+//     $(this).css({"transform" : "scale("+ scaleVal +")"});
+
+//   });
 
 
 

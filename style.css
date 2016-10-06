@@ -925,20 +925,20 @@ h1.site-h {
 }
 
 .catalog-item .thumbnail.novisible {
-    display: none;
+    opacity: .01;
 }
 
 .thumbnail {
     display: block;
     width: 100%;
 
-    -webkit-transform: scale(0);
+/*    -webkit-transform: scale(0);
     -moz-transform: scale(0);
     -ms-transform: scale(0);
     -o-transform: scale(0);
-    transform: scale(0);
+    transform: scale(0);*/
 
-    -webkit-transition-property: transform;
+/*    -webkit-transition-property: transform;
     -webkit-transition-duration: .6s;
     -webkit-transition-timing-function: ease;
 
@@ -956,7 +956,7 @@ h1.site-h {
 
     transition-property: transform;
     transition-duration: .6s;
-    transition-timing-function: ease;
+    transition-timing-function: ease;*/
 }
 
 .thumbnail.show:link,
@@ -977,7 +977,7 @@ h1.site-h {
     transform: scale(1.03);
 }
 
-.thumbnail.show:hover {
+.thumbnail:hover {
     -webkit-transform: scale(1.03);
     -moz-transform: scale(1.03);
     -ms-transform: scale(1.03);
@@ -985,7 +985,7 @@ h1.site-h {
     transform: scale(1.03);
 }
 
-.thumbnail.show .img-box {
+.thumbnail .img-box {
     display: block;
     width: 100%;
     height: 200px;
@@ -993,11 +993,11 @@ h1.site-h {
     background: rgba(255, 255, 255, 1);
 }
 
-.thumbnail.show img {
+.thumbnail img {
     display: block;
     width: 100%;
     background: rgba(255, 255, 255, 1);
-
+/*
     -webkit-transition-property: transform;
     -webkit-transition-duration: .6s;
     -webkit-transition-timing-function: ease;
@@ -1016,18 +1016,18 @@ h1.site-h {
 
     transition-property: transform;
     transition-duration: .6s;
-    transition-timing-function: ease;
+    transition-timing-function: ease;*/
 }
 
-.thumbnail.show:hover .img-box img {
+/*.thumbnail:hover .img-box img {
     -webkit-transform: scale(1.03);
     -moz-transform: scale(1.03);
     -ms-transform: scale(1.03);
     -o-transform: scale(1.03);
     transform: scale(1.03);
-}
+}*/
 
-.thumbnail.show h2 {
+.thumbnail h2 {
     display: block;
     width: 100%;
     padding: 12px 5px 8px 5px;
@@ -1061,19 +1061,19 @@ h1.site-h {
     transition-timing-function: ease;
 }
 
-.thumbnail.show:link h2,
-.thumbnail.show:visited h2 {    
+.thumbnail:link h2,
+.thumbnail:visited h2 {    
     background: rgba(29, 165, 235, 1);
     color: #ffffff;
 }
 
-.thumbnail.show:active h2,
-.thumbnail.show.active h2 {
+.thumbnail:active h2,
+.thumbnail.active h2 {
     background: rgba(253, 210, 25, 1);
     color: #5f0002;
 }
 
-.thumbnail.show:hover h2 {
+.thumbnail:hover h2 {
     background: rgba(253, 210, 25, 1);
     color: #5f0002;
 }
