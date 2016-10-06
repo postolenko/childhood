@@ -342,7 +342,7 @@ a:active {
     top: 0;
     left: 0;
     background: rgba(255, 255, 255, .9);
-    z-index: 3;
+    z-index: 14;
 }
 
 .preload-img-box {
