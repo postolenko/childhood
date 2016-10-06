@@ -53,7 +53,6 @@
 	}
 
 	.main-page .main-content {
-		/*padding: 0 0 255px 0;*/
 		padding: 15px 1%;
 	}
 
@@ -133,13 +132,6 @@
 		vertical-align: top;
 		margin: 15px 1%;
 	}
-
-	/*.float-image {
-		display: block;
-		width: 250px;
-		position: relative;
-		margin: 40px auto;
-	}*/
 
 	.footer-section-1 .footer-col {
 		width: 100%;
@@ -358,18 +350,10 @@
 		padding: 0;
 	}
 
-	.logo-link {
-		/*display: block;
-		width: 116px;
-		height: 116px;*/
-	}
-
 	.menu-link,
 	.catalog-link {
 		display: inline-block;
 		vertical-align: middle;
-/*		padding: 5px;
-		min-width: 85px;*/
 		padding: 5px 15px;
 		min-width: 90px;
 	}
@@ -417,7 +401,6 @@
 	}
 
 	.float-image {
-		/* height: 230px; */
 		width: 300px;
 		height: auto;
 	}

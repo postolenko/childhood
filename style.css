@@ -570,7 +570,7 @@ h1.site-h {
     position: absolute;
     top: 0;
     left: 50%;
-    margin: -43px 0 0 -63px
+    margin: -40px 0 0 -63px;
 }
 
 .logo-link:after {
@@ -591,12 +591,12 @@ h1.site-h {
 
 .logo-img {
     display: block;
-    width: 85px;
+    width: 113px;
     height: auto;
     margin: 0 auto;
     z-index: 2;
     position: relative;
-    top: 25px;
+    top: 9px;
 
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -636,19 +636,19 @@ h1.site-h {
 
 .logo-link:active .logo-img,
 .logo-link.active .logo-img {
-    -webkit-transform: scale(1.21);
-    -moz-transform: scale(1.21);
-    -ms-transform: scale(1.21);
-    -o-transform: scale(1.21);
-    transform: scale(1.21);
+    -webkit-transform: scale(1.11);
+    -moz-transform: scale(1.11);
+    -ms-transform: scale(1.11);
+    -o-transform: scale(1.11);
+    transform: scale(1.11);
 }
 
 .logo-link:hover .logo-img {
-    -webkit-transform: scale(1.21);
-    -moz-transform: scale(1.21);
-    -ms-transform: scale(1.21);
-    -o-transform: scale(1.21);
-    transform: scale(1.21);
+    -webkit-transform: scale(1.11);
+    -moz-transform: scale(1.11);
+    -ms-transform: scale(1.11);
+    -o-transform: scale(1.11);
+    transform: scale(1.11);
 }
 
 .right-header-col {
@@ -924,7 +924,7 @@ h1.site-h {
     padding: 5px .5%;
 }
 
-.catalog-item.novisible {
+.catalog-item .thumbnail.novisible {
     display: none;
 }
 

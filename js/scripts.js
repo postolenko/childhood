@@ -14,15 +14,15 @@ $(document).ready(function() {
         var intervalShow;
 
 
-        $(".catalog-thumnails").css({"min-height" : $(".catalog-thumnails").height() + "px"});
+        $(".catalog-thumnails").css({"min-height" : "auto"});
 
-        $(".catalog-item").addClass("novisible");
+        $(".catalog-item .thumbnail").addClass("novisible");
 
         setTimeout(function() {
 
             $(".preload-bg").fadeOut(500);
 
-            $(".catalog-item").removeClass("novisible");
+            $(".catalog-item .thumbnail").removeClass("novisible");
 
             countCatalogThumbnail = $(".catalog-thumnails .thumbnail").length - 1;
 
