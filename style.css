@@ -668,7 +668,7 @@ h1.site-h {
     display: inline-block;
     vertical-align: middle;
     padding: 0 10px;
-    z-index: 2;
+    z-index: 3;
     position: relative;
 }
 
@@ -696,6 +696,8 @@ h1.site-h {
     -o-border-radius: 4px;
     border-radius: 4px;
     background: rgba(18, 123, 203, 0);
+    position: relative;
+    z-index: 3;
 
     -webkit-transition-property: background color;
     -webkit-transition-duration: .3s;
