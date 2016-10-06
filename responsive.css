@@ -354,12 +354,25 @@
 	.catalog-link {
 		display: inline-block;
 		vertical-align: middle;
-		padding: 5px 15px;
-		min-width: 90px;
+		padding: 5px 10px;
+		min-width: 100px;
+	}
+
+	.menu-link-box {
+		padding: 0 0 0 5px;
+	}
+
+	.catalog-link-box {
+		padding: 0 5px 0 0;
 	}
 
 	.catalog-item {
 		padding: 5px 1.5%;
+	}
+
+	.thumbnail h2 {
+		font-size: 14px;
+		line-height: 18px;
 	}
 
 	.thumbnail .img-box {

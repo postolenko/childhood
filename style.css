@@ -596,7 +596,7 @@ h1.site-h {
     margin: 0 auto;
     z-index: 2;
     position: relative;
-    top: 9px;
+    top: 8px;
 
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -931,32 +931,6 @@ h1.site-h {
 .thumbnail {
     display: block;
     width: 100%;
-
-/*    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -ms-transform: scale(0);
-    -o-transform: scale(0);
-    transform: scale(0);*/
-
-/*    -webkit-transition-property: transform;
-    -webkit-transition-duration: .6s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: transform;
-    -moz-transition-duration: .6s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: transform;
-    -ms-transition-duration: .6s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: transform;
-    -o-transition-duration: .6s;
-    -o-transition-timing-function: ease;
-
-    transition-property: transform;
-    transition-duration: .6s;
-    transition-timing-function: ease;*/
 }
 
 .thumbnail.show:link,
@@ -1030,7 +1004,7 @@ h1.site-h {
 .thumbnail h2 {
     display: block;
     width: 100%;
-    padding: 12px 5px 8px 5px;
+    padding: 12px 5px 10px 5px;
     font-family: "Roboto", Arial, Verdana, sans-serif;
     font-size: 14px;
     line-height: 24px;
