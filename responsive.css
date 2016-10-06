@@ -167,7 +167,7 @@
 	}
 
 	.thumbnail .img-box {
-		height: 148px;
+		height: 148px !important;
 	}
 
 	.slider-new-goods button.slick-prev img {
@@ -185,7 +185,6 @@
 	.catalog-page.thumbnails .pagination-list {
 		padding: 35px 0 15px 0;
 	}
-
 
     .product-box .left-col {
         width: 100%;
@@ -306,7 +305,7 @@
 	}
 
 	.thumbnail .img-box {
-		height: 115px;
+		height: 115px !important;
 	}
 
 	.slider-new-goods .slick-list {

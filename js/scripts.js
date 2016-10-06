@@ -1,17 +1,55 @@
 $(document).ready(function() {
 
-    //   preload
-    // $(window).on('load', function () {
+    var indexImage;
+    var imgSrcAttr;
+   
+// ------------------------------------------------------------------------------------------------------
+    //  PRELOAD
 
-    //     setTimeout(function() {
+    $(window).on('load', function () {
 
-    //         $(".preload-bg").fadeOut(500);
 
-    //     }, 700);
-  
+        var countCatalogThumbnailFor = 0;
+        var countCatalogThumbnail;
+        var intervalShow;
 
-    // });
 
+        $(".catalog-thumnails").css({"min-height" : $(".catalog-thumnails").height() + "px"});
+
+        $(".catalog-item").addClass("novisible");
+
+        setTimeout(function() {
+
+            $(".preload-bg").fadeOut(500);
+
+            $(".catalog-item").removeClass("novisible");
+
+            countCatalogThumbnail = $(".catalog-thumnails .thumbnail").length - 1;
+
+            intervalShow = setInterval(function() {
+
+                $(".catalog-thumnails .thumbnail:eq("+ countCatalogThumbnailFor +")").addClass("show");
+
+                countCatalogThumbnailFor++
+
+                if( countCatalogThumbnailFor > countCatalogThumbnail ) {
+
+                    clearInterval(intervalShow);
+
+                    $(".catalog-thumnails").css({"min-height" : "auto"});
+
+                }
+
+            }, 400);
+
+        }, 1200);
+
+
+    });
+
+
+
+// ------------------------------------------------------------------------------------------------------
 
     $(window).resize(function() {
 
@@ -61,8 +99,8 @@ $(document).ready(function() {
 
     $(function() {
 
-        var indexImage;
-        var imgSrcAttr;
+        // var indexImage;
+        // var imgSrcAttr;
 
         $(".sidebar-right img").click(function() {
 

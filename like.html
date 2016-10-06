@@ -98,3 +98,23 @@
 			</ul>
 
 		</div>
+
+<script>
+
+    var indexModalNav;
+
+    $(".modal-nav-link").click(function() {
+
+        indexModalNav = $(".modal-nav-link").index(this);
+
+        $(".modal-nav").removeClass("leftoffset");
+
+        if ( $(".modal-nav:eq("+ indexModalNav +") .mCSB_scrollTools.mCSB_1_scrollbar mCS-light.mCSB_scrollTools_vertical").css("display") == "block" ) {
+
+            $(".modal-nav:eq("+ indexModalNav +") .mCSB_inside > .mCSB_container").addClass("leftoffset");
+
+        }
+
+    });
+
+</script>
