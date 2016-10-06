@@ -213,7 +213,13 @@ section {
 }
 
 h1 {
-
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 200;
+    color: #0b4d80;
+    text-transform: uppercase;
+    padding: 5px 0;
 }
 
 
@@ -342,8 +348,8 @@ a:active {
 .preload-img-box {
     display: block;
     display: block;
-    width: 340px;
-    height: 340px;
+    width: 320px;
+    height: 320px;
     margin: auto;
     position: absolute;
     top: 0;
@@ -361,8 +367,8 @@ a:active {
 
 .preload-bg img {
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     margin: auto;
     position: absolute;
     top: 0;
