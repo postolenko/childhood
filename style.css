@@ -668,7 +668,7 @@ h1.site-h {
     display: inline-block;
     vertical-align: middle;
     padding: 0 10px;
-    z-index: 3;
+    z-index: 1;
     position: relative;
 }
 
