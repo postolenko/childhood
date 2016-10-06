@@ -57,15 +57,17 @@
 	}
 
 	.slider-new-goods button.slick-arrow {
-		display: inline-block;
-		vertical-align: middle;
-		width: 5%;
-		position: relative;
-		top: -20px;
+		display: block;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top: 50%;
+		margin: -25px 0 0 0 !important;
 	}
 
 	.slider-new-goods .slick-prev img,
 	.slider-new-goods .slick-next img {
+		top: 3px;
 		-webkit-transform: rotate(-90deg);
 		-moz-transform: rotate(-90deg);
 		-ms-transform: rotate(-90deg);
@@ -74,9 +76,17 @@
 	}
 
 	.slider-new-goods .slick-list {
-		display: inline-block;
-		vertical-align: middle;
+		display: block;
 		width: 90%;
+		margin: 0 auto;
+	}
+
+	.slider-new-goods .slick-arrow.slick-prev {
+		left: -3%;
+	}
+
+	.slider-new-goods .slick-arrow.slick-next {
+		right: -3%;
 	}
 
 	.product-content {
@@ -170,8 +180,8 @@
 		height: 148px !important;
 	}
 
-	.slider-new-goods button.slick-prev img {
-		left: -20px;
+	.slider-new-goods button.slick-prev{
+		left: -16px;
 	}
 
 	.sortable-list {
@@ -210,8 +220,28 @@
 	.slider-nav-big-photo .slick-list {
 		display: block;
 		width: 84%;
-		margin: 10px auto;
+		margin: 15px auto;
 	}
+
+	.slider-nav-big-photo button {
+        display: block;
+        background: none;
+        cursor: pointer;
+        border: 1px solid transparent;
+        width: 32px;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        margin: -10px 0 0 0 !important;
+    }
+
+    .slider-nav-big-photo button.slick-prev {
+    	left: -1%;
+    }
+
+     .slider-nav-big-photo button.slick-next {
+    	right: 0;
+    }
 
 	.slider-nav-big-photo .slick-list .slick-track div {
 		height: 80px;
@@ -225,21 +255,17 @@
 		height: auto;
 	}
 
-	.slider-nav-big-photo button.slick-arrow {
-		display: block;
-		position: absolute;
-		top: 50%;
-		width: 20px;
-		height: 20px;
-		margin: -10px 0 0 0;
+	.slider-new-goods .slick-list {
+		width: 84%;
+		margin: 0 auto;
 	}
 
 	.slider-nav-big-photo button.slick-prev {
-		left: -1.5%;
+		left: -1%;
 	}
 
 	.slider-nav-big-photo button.slick-next {
-		right: 2%;
+		right: 0%;
 	}
 
 	.slider-nav-big-photo button.slick-prev img,
@@ -306,18 +332,6 @@
 
 	.thumbnail .img-box {
 		height: 115px !important;
-	}
-
-	.slider-new-goods .slick-list {
-		width: 84%;
-	}
-
-	.slider-new-goods button.slick-arrow {
-		width: 8%;
-	}
-
-	.slider-new-goods button.slick-arrow img {
-		width: 38px;
 	}
 
 	.sortable-list li {

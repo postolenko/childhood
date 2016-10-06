@@ -50,6 +50,10 @@
                 prevArrow: '<button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0" role="button"><img src="slick/prev_btn_bg.png" alt="Prev Partner"></button>',
                 nextArrow: '<button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0" role="button"><img src="slick/next_btn_bg.png" alt="Next Partner"></button>',
 
+                // prevArrow: '<button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0" role="button"></button>',
+                // nextArrow: '<button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0" role="button"></button>',
+
+
                 autoplay: false,
                 autoplaySpeed: 3000,
                 centerMode: false,
