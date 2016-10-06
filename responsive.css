@@ -52,6 +52,26 @@
 		padding: 15px 1%;
 	}
 
+	.main-page .main-content {
+		/*padding: 0 0 255px 0;*/
+		padding: 15px 1%;
+	}
+
+	.float-image {
+		display: block;
+		height: 245px;
+		position: relative;
+		margin: 0 auto;
+	}
+
+	.float-image img {
+		width: auto;
+		height: 292px;
+		position: relative;
+		top: -25px;
+		margin: 0 auto;
+	}
+
 	.slider-new-goods {
 		padding: 0 0 10px 0;
 	}
@@ -114,12 +134,12 @@
 		margin: 15px 1%;
 	}
 
-	.float-image {
+	/*.float-image {
 		display: block;
 		width: 250px;
 		position: relative;
 		margin: 40px auto;
-	}
+	}*/
 
 	.footer-section-1 .footer-col {
 		width: 100%;
@@ -281,14 +301,17 @@
 	.float-image {
 		display: block;
 		position: relative;
-		margin: 0 auto 10px auto;
+		height: 355px;
+		margin: 0 auto;
 	}
 
 	.float-image img {
 		display: block;
-		width: auto;
-		height: 220px;
+		width: 100%;
+		height: auto;
 		margin: 0 auto;
+		position: relative;
+		top: 32px;
 	}
 
 	.footer-section-1 .col-1 ul {
@@ -331,8 +354,37 @@
 		padding: 0 0 65px 0;
 	}
 
+	.main-nav.row {
+		padding: 0;
+	}
+
+	.logo-link {
+		/*display: block;
+		width: 116px;
+		height: 116px;*/
+	}
+
+	.menu-link,
+	.catalog-link {
+		display: inline-block;
+		vertical-align: middle;
+/*		padding: 5px;
+		min-width: 85px;*/
+		padding: 5px 15px;
+		min-width: 90px;
+	}
+
+	.catalog-item {
+		padding: 5px 1.5%;
+	}
+
 	.thumbnail .img-box {
-		height: 115px !important;
+		height: 120px !important;
+	}
+
+	.thumbnail.show h2 {
+		padding: 13px 5px 9px 5px;
+		line-height: 20px;
 	}
 
 	.sortable-list li {
@@ -361,6 +413,12 @@
 	.slider-nav-big-photo .slick-list .slick-track div img {
 		display: block;
 		width: 100%;
+		height: auto;
+	}
+
+	.float-image {
+		/* height: 230px; */
+		width: 300px;
 		height: auto;
 	}
 

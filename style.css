@@ -396,7 +396,7 @@ a:active {
     font-family: "Roboto", Arial, Verdana, sans-serif;
     font-size: 10px;
     line-height: 14px;
-    font-weight: 300;
+    font-weight: 400;
     color: #0b4d80;
     text-align: center;
     text-transform: uppercase;
@@ -426,10 +426,10 @@ h1.site-h {
     padding: 0 2%;
     background: rgba(255, 255, 255, 1);
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 36px;
-    font-weight: 200;
-    color: #0b4d80;
+    font-weight: 400;
+    color: #0d004c;
     text-transform: uppercase;
     position: relative;
     z-index: 2;
@@ -680,7 +680,9 @@ h1.site-h {
 .catalog-link {
     display: inline-block;
     vertical-align: middle;
-    padding: 5px 20px;
+    padding: 5px 19px;
+    min-width: 100px;
+    text-align: center;
     font-family: "Roboto", Arial, Verdana, sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -1339,6 +1341,10 @@ h1.site-h {
     float: left;
 }
 
+.main-page .main-content {
+    padding: 0 0 255px 0;
+}
+
 .sidebar-right {    
     padding: 10px 1%;
     position: relative;
@@ -1909,20 +1915,21 @@ h1.site-h {
 /* ----- /Product Page ------ */
 
 
-.float-image {
-    display: block;
-    width: auto;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-}
+    .float-image {
+        display: block;
+        width: 460px;
+        position: relative;
+        margin: 0 auto;
+        z-index: 3;        
+    }
 
-.float-image img {
-    display: block;
-    width: auto;
-    height: auto;
-}
+    .float-image img {
+        display: block;
+        width: 100%;
+        position: absolute;
+        height: auto;
+        top: -252px;
+    }
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
