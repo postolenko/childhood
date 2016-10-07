@@ -49,33 +49,6 @@ $(document).ready(function() {
 
     });
 
-//     var scaleVal = 1;
-
-// $(".catalog-thumnails .thumbnail")
-//   .on( "mouseenter", function() {
-
-//     // scaleVal = scaleVal + .03;
-
-//     setInterval(function() {
-
-//         scaleVal = scaleVal + .003;
-
-//     }, 35);
-
-//     $(this).css({"transform" : "scale("+ scaleVal +")"});
-
-//   })
-//   .on( "mouseleave", function() {
-
-//     scaleVal = scaleVal - .03;
-
-//     console.log(scaleVal);
-
-//     $(this).css({"transform" : "scale("+ scaleVal +")"});
-
-//   });
-
-
 
 // ------------------------------------------------------------------------------------------------------
 
